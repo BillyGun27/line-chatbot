@@ -182,6 +182,18 @@ $app->post('/webhook', function ($request, $response) use ($bot, $pass_signature
 
 });
 
+//push message
+
+$app->get('/pushmessage', function($req, $res) use ($bot)
+{
+    // send push message to user
+    $userId = 'U3ab394427cbbfb1eb41d5b39b5270e93';
+    $textMessageBuilder = new TextMessageBuilder('Halo, ini pesan push');
+    $result = $bot->pushMessage($userId, $textMessageBuilder);
+   
+    return $res->withJson($result->getJSONDecodedBody(), $result->getHTTPStatus());
+});
+
 //multicast to all user
 /*
 Untuk mencobanya, buka alamat route index.php/multicast pada browser Anda, 
