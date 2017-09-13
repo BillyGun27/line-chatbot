@@ -66,11 +66,11 @@ use \LINE\LINEBot\SignatureValidator as SignatureValidator;
 $pass_signature = true;
 
 // set LINE channel_access_token and channel_secret
-$channel_access_token = "z38Mt13fSmdaMFX/TEKgkMlykuTWD70jCpdgqe8nNYWuYwr5sEGSB0aeXToCRVJM628IcdwSA+yylI1/6d0+WtW5Ao4lnEJYnuM3Ag354LsLVAGGxj5O2o85eqKq4plf2iPyTKnHtAW/6IFih29yUgdB04t89/1O/w1cDnyilFU=";
-$channel_secret = "e7fd5130b7d9e0bb1865dc81dd4d60dd";
+//$channel_access_token = "z38Mt13fSmdaMFX/TEKgkMlykuTWD70jCpdgqe8nNYWuYwr5sEGSB0aeXToCRVJM628IcdwSA+yylI1/6d0+WtW5Ao4lnEJYnuM3Ag354LsLVAGGxj5O2o85eqKq4plf2iPyTKnHtAW/6IFih29yUgdB04t89/1O/w1cDnyilFU=";
+//$channel_secret = "e7fd5130b7d9e0bb1865dc81dd4d60dd";
 
 // set LINE channel_access_token and channel_secret
-//this one with push message
+//this one has access to push message
 //$channel_access_token = "KejhqvCuQIngisOkzHovUknJ9vzYWTvmoPvI56c3GzR1hChtLSFSi6MA84GRQECI/sSnI3lfUaeHIVVanNU/TxZlYEELzOPuKuxAhN9IZkSppL0iO6Nf1DJADs7lGwPIVahOs5j8UYpny7gZ3sXI5gdB04t89/1O/w1cDnyilFU=";
 //$channel_secret = "8cd357efd009c5db179d3532b5195939";
 
