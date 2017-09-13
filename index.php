@@ -71,8 +71,8 @@ $pass_signature = true;
 
 // set LINE channel_access_token and channel_secret
 //this one has access to push message
-//$channel_access_token = "KejhqvCuQIngisOkzHovUknJ9vzYWTvmoPvI56c3GzR1hChtLSFSi6MA84GRQECI/sSnI3lfUaeHIVVanNU/TxZlYEELzOPuKuxAhN9IZkSppL0iO6Nf1DJADs7lGwPIVahOs5j8UYpny7gZ3sXI5gdB04t89/1O/w1cDnyilFU=";
-//$channel_secret = "8cd357efd009c5db179d3532b5195939";
+$channel_access_token = "KejhqvCuQIngisOkzHovUknJ9vzYWTvmoPvI56c3GzR1hChtLSFSi6MA84GRQECI/sSnI3lfUaeHIVVanNU/TxZlYEELzOPuKuxAhN9IZkSppL0iO6Nf1DJADs7lGwPIVahOs5j8UYpny7gZ3sXI5gdB04t89/1O/w1cDnyilFU=";
+$channel_secret = "8cd357efd009c5db179d3532b5195939";
 
 //my user id  -->> U3ab394427cbbfb1eb41d5b39b5270e93 
 
